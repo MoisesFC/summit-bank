@@ -85,7 +85,7 @@
   color: lightblue; /* Change the link color on hover */
 }
 
-.carousel-container {
+.Container {
   width: 100%;
   max-width: 100%;
 }
@@ -111,3 +111,21 @@
   width: 100%;
   height: auto;
 }
+
+.carousel-caption-content {
+  background-color: rgba(0, 0, 0, 0.3); /* Use rgba with alpha value for opacity */
+  padding: 10px;
+  color: white; /* Set text color to white for better readability */
+}
+
+.carousel-caption-content h3,
+.carousel-caption-content p {
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .hide-on-small-screen {
+    display: none; /* Hide <p> elements on small screens */
+  }
+}
+
