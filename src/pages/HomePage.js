@@ -51,6 +51,7 @@ const HomePage = () => {
                             <Card.Text>
                             Simplify your finances and take control of your money with our checking account offer, featuring no monthly fees, free online banking and bill pay, and access to over thousands of ATMs nationwide. With our account, you can manage your money with ease and enjoy the convenience of banking on your terms.
                             </Card.Text>
+                            
                             <Button variant="primary">Open Account</Button>
                         </Card.Body>
                     </Card>
@@ -63,6 +64,7 @@ const HomePage = () => {
                             <Card.Text>
                             Start saving for your future today with our savings account offer, featuring competitive interest rates and no monthly fees, plus easy access to your funds whenever you need them. With our account, you can achieve your financial goals and enjoy peace of mind knowing your money is safe and secure.
                             </Card.Text>
+                            <br/>
                             <Button variant="primary">Start Saving</Button>
                         </Card.Body>
                     </Card>
@@ -75,6 +77,7 @@ const HomePage = () => {
                             <Card.Text>
                             Start saving for your future today with our savings account offer, featuring competitive interest rates and no monthly fees, plus easy access to your funds whenever you need them. With our account, you can achieve your financial goals and enjoy peace of mind knowing your money is safe and secure.
                             </Card.Text>
+                            <br/>
                             <Button variant="primary">Check Rates</Button>
                         </Card.Body>
                     </Card>
