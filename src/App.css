@@ -134,3 +134,39 @@
 .Carousel.Caption a {
   color: white;
 }
+
+.chekingJumbotron {
+  height: 400px;
+  background-color: lightgray;
+}
+
+
+.jumbotron{
+  background-color: #c7c5c5;
+}
+
+
+.no-underline {
+  text-decoration: none;
+}
+
+.custom-card .card{
+  border: none; 
+}
+
+.custom-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-image {
+  max-width: 700px;
+  max-height: 700px;
+}
+/* 
+.d-flex {
+  max-width: 700px;
+  text-align: center;
+} */

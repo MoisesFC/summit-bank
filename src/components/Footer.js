@@ -35,7 +35,7 @@ const Footer = () => {
           </Row>
           <br/>
           <Row>
-            <h6>Copyright Summit Bank © 2023. All rights reserved.</h6>
+            <h6 style={{textAlign: 'center'}}>  Copyright Summit Bank © 2023. All rights reserved.</h6>
           </Row>
         </Container>
       </footer>
