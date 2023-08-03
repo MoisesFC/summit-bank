@@ -40,9 +40,9 @@ const Header = () => {
             aria-label="password"
           />
         </Form>
-        <Button style={{ margin: "10px" }} lg variant="light">Log In</Button>
+        <Button style={{ margin: "10px" }} lg variant="success">Log In</Button>
 
-        <Button style={{ margin: '10px' }} lg variatn="light">Create Online Account</Button>
+        <Button style={{ margin: '10px' }} lg variant="secondary">Create Online Account</Button>
       </Navbar.Collapse>
     </Navbar>
   )

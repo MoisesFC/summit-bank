@@ -119,8 +119,10 @@
 }
 
 .carousel-caption-content h3,
-.carousel-caption-content p {
+.carousel-caption-content p,
+.carousel-caption-content a {
   margin: 0;
+  color: white;
 }
 
 @media (max-width: 767px) {
@@ -129,3 +131,6 @@
   }
 }
 
+.Carousel.Caption a {
+  color: white;
+}

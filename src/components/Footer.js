@@ -28,9 +28,9 @@ const Footer = () => {
             <Col xs={12} md={4}>
               <h5>Contact Us</h5>
               <hr/>
-              <p>Email: info@example.com</p>
-              <p>Phone: +1 (123) 456-7890</p>
-              <p>Address, City, Country</p>
+              <p>Email:<a href="mailto:info@example.com"> info@example.com</a></p>
+              <p>Phone: <a href="tel:+11234567890"> +1 (123) 456-7890</a></p>
+              <p>Address: <br/> <a href="#">579 Main St, <br/> Suite 100<br/>Atlanta GA, USA</a></p>
             </Col>
           </Row>
           <br/>

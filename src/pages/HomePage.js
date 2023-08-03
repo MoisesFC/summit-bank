@@ -12,6 +12,7 @@ import creditCardImage from '../img/creditCardWide.jpg'
 import carImg from '../img/car.jpg';
 import piggieImg from '../img/piggie.jpg';
 import checkingImg from '../img/checking.jpg';
+import React from "react";
 
 const HomePage = () => {
     return (
@@ -21,21 +22,21 @@ const HomePage = () => {
                 <Carousel.Item>
                     <img src={coinImage} className="carousel-image" alt="Coin" />
                     <Carousel.Caption className="carousel-caption-content">
-                        <h3>High Yield CDs Accounts</h3>
+                        <a href="#"><h3>High Yield CDs Accounts</h3></a>
                         <p className="hide-on-small-screen">Grow your savings with our high-yield CD rates, featuring guaranteed returns and flexible terms to fit your financial goals.</p>
                     </Carousel.Caption >
                 </Carousel.Item>
                 <Carousel.Item>
                     <img src={houseImage} className="carousel-image" alt="House" />
                     <Carousel.Caption className="carousel-caption-content">
-                        <h3>Home Mortgage</h3>
+                        <a href="#"><h3>Home Mortgage</h3></a>
                         <p className="hide-on-small-screen">Make your dream home a reality with our home mortgage offer, featuring competitive rates, flexible payment options, and expert guidance from start to finish.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img src={creditCardImage} className="carousel-image" alt="Credit Card" />
                     <Carousel.Caption className="carousel-caption-content">
-                        <h3>Summit Platinum Card</h3>
+                        <a href="#"><h3>Summit Platinum Card</h3></a>
                         <p className="hide-on-small-screen">Get the financial freedom you deserve with our credit card, featuring low introductory interest rates, rewards for every purchase, and worldwide fraud protection.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
