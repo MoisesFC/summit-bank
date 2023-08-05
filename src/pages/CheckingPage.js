@@ -14,13 +14,14 @@ const CheckingPage = () => {
     return (
         <Container fluid className="p-0">
             <div className="container-fluid text-dark p-3 jumbotron">
-                <div className="container p-3">
+                <div className="container p-3" style={{ maxWidth: '1100px' }}>
                     <h1 className="display-3" ><strong>Summit Premium® Checking</strong></h1>
                     <hr />
                     <a href="#" className="btn btn-success">Open Account</a>
                 </div>
             </div>
-            <Row className="container p-3 m-auto">
+            <Container style={{ maxWidth: '1100px' }}>
+            <Row className="container p-3 m-auto" >
                 <Col col={3} className="text-center">
                     <a href="#" className="no-underline">
                         <FaPercent />
@@ -150,7 +151,7 @@ const CheckingPage = () => {
                     <Button color="success">Open Account Now!</Button>
                 </Col>
             </Row>
-
+            </Container>
         </Container>
     )
 };

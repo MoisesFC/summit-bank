@@ -7,14 +7,14 @@ const CreditCardPage = () => {
     return (
         <Container fluid className="p-0">
             <div className="container-fluid text-dark p-3 jumbotron">
-                <div className="container p-3">
+                <div className="container p-3" style={{ maxWidth: '1100px' }}>
                     <h1 className="display-3" ><strong>Summit Platinum® Credit Card</strong></h1>
                     <hr />
                     <a href="#" className="btn btn-success">Open Account</a>
                 </div>
             </div>
             <img className="d-md-none" style={{width: "100%"}} src={creditCardYellowWideImg}/>
-            <Container className="mx-auto mw-200 mw-md-200">
+            <Container className="mx-auto mw-200 mw-md-200" style={{ maxWidth: '1100px' }}>
                 <Row className="pt-5">
                     <Col className="d-none d-md-block md-4"></Col>
                     <Col className="md-4 text-center">
@@ -56,11 +56,12 @@ const CreditCardPage = () => {
                     </Col>
                     <Col className="d-none d-md-block md-4"></Col>
                 </Row>
+                <hr/>
             </Container>
-            <hr/>
-        <h3 className="text-center p-3">Casback Categories</h3>
+            
+        <h3 className="text-center p-3">Casback Categories </h3>
 
-            <Accordion id="cashback" className="container" defaultActiveKey={['0']} >
+            <Accordion id="cashback" className="container" defaultActiveKey={['0']} style={{ maxWidth: '1100px' }}>
       <Accordion.Item eventKey="0">
         <Accordion.Header>5% Cashback on Travel</Accordion.Header>
         <Accordion.Body>
