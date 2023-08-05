@@ -6,20 +6,23 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
 const Header = () => {
+
+
   return (
     <Navbar data-bs-theme="dark" className='navdark' expand="xl">
       <Navbar.Brand style={{ paddingLeft: "20px" }} href="#home">
         <img
+          style={{ height: "70px" }}
           src={SummitBankLogo}
           height="60"
           className="d-inline-block align-top"
           alt="React Bootstrap logo"
         />
       </Navbar.Brand>
-      <Navbar.Toggle style={{ margin: '10px'}} className="toggler-icon" aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav" style={{textAlign: 'center' }}>
+      <Navbar.Toggle style={{ margin: '10px' }} className="toggler-icon" aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav" style={{ textAlign: 'center' }}>
         <Nav className="me-auto">
-          <Nav.Link as={NavLink} to="/" exact activeClassName="active-link" className="link-white">
+          <Nav.Link as={NavLink} to="/" activeClassName="active-link" className="link-white">
             Home
           </Nav.Link>
           <Nav.Link as={NavLink} to="/checking" activeClassName="active-link" className="link-white">
@@ -33,7 +36,7 @@ const Header = () => {
           </Nav.Link>
         </Nav>
         <Form className="d-flex" data-bs-theme="light">
-          <Form.Control type="username" placeholder="Username" className="me-2" aria-label="username" /> 
+          <Form.Control type="username" placeholder="Username" className="me-2" aria-label="username" />
           <Form.Control type="password" placeholder="Password" className="me-2" aria-label="password" />
         </Form>
         <Button style={{ margin: "10px" }} lg variant="success">
