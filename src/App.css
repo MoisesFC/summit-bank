@@ -170,3 +170,15 @@
   max-width: 700px;
   text-align: center;
 } */
+
+.returns{
+  color: orange;
+  font-weight: bolder;
+  text-size-adjust: 300;
+  padding-top: 0;
+}
+
+.years{
+  padding-top: 5;
+  font-weight: bolder;
+}
