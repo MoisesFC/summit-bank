@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Summit Bank Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### This project consists of a landing page for a fictitious bank's website. It includes 4 different pages, all written in HTML with CSS styling. Bootstrap components are also implemented.
 
-## Available Scripts
+###To view this site live, click on this [Link][https://summit-bank-a5b6f.web.app]
 
-In the project directory, you can run:
+## Main features:
+- The main page contains a carousel showing different products. There is an option to log in or create an account in the navbar.
+- The other 3 pages contain descriptions for the different products: Checking Account, Savings, and Retirement.
+- The Retirement page contains a Retirement Calculator powered by a JavaScript function that utilizes the DOM to connect to different user-inputted HTML elements. Once the user enters the required numbers, the JavaScript code performs a calculation and returns the final amount in dollars that the individual would have for retirement. The formula used is as follows:
 
-### `npm start`
+```javascript
+    const currentSavingsReturn = Math.trunc((currentSavings) * ((1) + (rateOfReturn / 12)) ** (12 * years));
+    const contributionsReturn = Math.trunc((monthlyContributions * ((1 + rateOfReturn / 12) ** (12 * years) - 1)) / (rateOfReturn / 12));
+    const totalReturns = currentSavingsReturn + contributionsReturn;
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Screenshot of the Home Page:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![alt text](./img/HomePage.png)
 
-### `npm test`
+## Screenshot of the CheckingPage:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![alt text](./img/CheckingPage.png)
 
-### `npm run build`
+## Screenshot of the Retirment page, showing the functionality of the Retirement Calculator:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![alt text](./img/RetirementPage.png)
